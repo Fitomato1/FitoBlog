@@ -1,0 +1,36 @@
+{
+  "name": "fitoblog",
+  "version": "1.0.0",
+  "description": "My Personal Weblog Node Package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fitomato1/FitoBlog.git"
+  },
+  "keywords": [
+    "weblog"
+  ],
+  "author": "Fitomato",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fitomato1/FitoBlog/issues"
+  },
+  "homepage": "https://github.com/Fitomato1/FitoBlog#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.59.3"
+  },
+  "dependencies": {
+    "gulp-css-minify": "^0.9.2"
+  }
+}
